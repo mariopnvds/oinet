@@ -2,15 +2,9 @@ import app from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/storage';
+import tokenconfig from '../../tokens/firebasetoken';
 
-const config = {
-  apiKey: "AIzaSyCfuZPrerZxoHgu2DrKtVvX38w_GrFPqqk",
-  authDomain: "open-innovation-pn.firebaseapp.com",
-  databaseURL: "https://open-innovation-pn.firebaseio.com",
-  projectId: "open-innovation-pn",
-  storageBucket: "open-innovation-pn.appspot.com",
-  messagingSenderId: "599877382405"
-};
+const config = tokenconfig;
 
 class Firebase {
   constructor() {

@@ -12,8 +12,8 @@
 ## Installation
 
 * `git clone https://github.com/mariopnvds/oinet.git`
-* `cd react-firebase-authentication`
+* `cd oinet`
 * `npm install`
 * `npm start`
 * visit http://localhost:3000/
-* Use your own Firebase Credentials
+* Use your own Firebase Credentials in `/src/tokens/firebasetoken.js`
